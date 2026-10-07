@@ -1,0 +1,28 @@
+### GET / website
+GET http://localhost:8383/
+
+### GET /dashboard website
+GET http://localhost:8383/dashboard
+
+### GET data from /api/data api endpoint
+GET http://localhost:8383/api/data
+
+### POST create data from /api/data api endpoint
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "name":"Gilgamesh"
+}
+
+### PUT update data from /api/data api endpoint
+PUT http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "name":"Mundo Depirtivo"
+}
+
+### Delete data from /api/data api endpoint
+
+DELETE http://localhost:8383/api/data

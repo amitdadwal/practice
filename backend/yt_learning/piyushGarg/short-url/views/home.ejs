@@ -1,0 +1,41 @@
+<html>
+<head></head>
+<body>
+    <h1>Hello from home page </h1>
+    <form method="POST" action="/url">
+        <label aria-label="name">Enter link to generate short url</label>
+        <input 
+        type="text"
+        placeholder="http://example.com"
+        name="url"
+        />
+        <button type="submit">Generate</button>
+    </form>
+    
+    <table>
+        <thead>
+            <th>S. No.</th>
+            <th>Short Id</th>
+            <th>Redirect Url</th>
+            <th>Total Clicks</th>
+            <th>Short URl</th>
+        </thead>
+        <tbody>
+            <% if (urls && urls.length>0) { %>
+                  <% urls.forEach((url, index) => { %>
+             <tr>
+                <td><%= index + 1 %></td>
+                <td><%= url.shortID %></td>
+                <td><%= url.redirectUrl %></td>
+                <td><%= url.visitHistory.length %></td>
+                <td><a href=<% %> target="_blank"><%="http://localhost:8001/url/"+url.shortID %></a></td>
+
+                
+             </tr>
+            <% }) %>
+            <% } %>
+          
+        </tbody>
+    </table>
+</body>    
+</html>

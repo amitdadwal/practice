@@ -1,0 +1,85 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cypress/base:16.13.2
+        environment:
+          ## this enables colors in the output
+          TERM: xterm
+          NEXT_PUBLIC_API_BASE_URL: http://api/v1
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Install yarn
+          command: |
+            apt-get update
+            apt-get -y install apt-transport-https
+            curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+            echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+            apt-get update
+            apt-get -y install yarn
+      - restore_cache:
+          keys:
+            - v3-deps-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install dependencies
+          command: |
+            yarn install --dev
+      - save_cache:
+          key: v3-deps-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache
+      - run:
+          name: Build
+          command: |
+            yarn build
+      - run:
+          name: Run Tests
+          command: |
+            yarn test
+
+  deploy:
+    docker:
+      - image: node:16
+    working_directory: ~/repo
+    steps:
+      - deploy:
+          name: Maybe Deploy
+          command: |
+            if [ -z "${CIRCLE_TAG}" ]; then
+              curl \
+                -XPOST \
+                --header "X-Rundeck-Auth-Token: $RUNDECK_AUTH_TOKEN" \
+                --header "Content-Type: application/json" \
+                --data "{\"options\": {\"version\": \"$CIRCLE_SHA1\"}}" \
+                "https://ops.tsl.io/api/18/job/$RUNDECK_STAGING_JOB_ID/executions"
+            else
+              curl \
+                -XPOST \
+                --header "X-Rundeck-Auth-Token: $RUNDECK_AUTH_TOKEN" \
+                --header "Content-Type: application/json" \
+                --data "{\"options\": {\"version\": \"$CIRCLE_TAG\"}}" \
+                "https://ops.tsl.io/api/18/job/$RUNDECK_PRODUCTION_JOB_ID/executions"
+            fi
+
+workflows:
+  version: 2
+  build_deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: production
+            tags:
+              only: /^v.*/
+      - deploy:
+          filters:
+            branches:
+              only:
+                - master
+            tags:
+              only: /^v.*/
+          requires:
+            - build
+          context: org-global

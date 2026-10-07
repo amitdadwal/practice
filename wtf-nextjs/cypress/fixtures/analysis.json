@@ -1,0 +1,59 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 491,
+            "submission": 44,
+            "characteristic": {
+                "id": 18,
+                "feature": 4,
+                "name": "Wide",
+                "note": null,
+                "icon": null,
+                "order": 0
+            },
+            "comment": "test",
+            "is_slight": false,
+            "is_excessive": false,
+            "is_greater_on_right": false,
+            "is_greater_on_left": false,
+            "is_selected": false,
+            "right_eye_notes": null,
+            "left_eye_notes": null,
+            "face_shape_primary": null,
+            "face_shape_secondary": null,
+            "face_shape_tertiary": null,
+            "age": null,
+            "created": "2022-02-14T20:09:12.297838Z",
+            "modified": "2022-02-15T10:06:05.903445Z"
+        },
+        {
+            "id": 546,
+            "submission": 44,
+            "characteristic": {
+                "id": 22,
+                "feature": 4,
+                "name": "M-shaped",
+                "note": null,
+                "icon": null,
+                "order": 4
+            },
+            "comment": "",
+            "is_slight": false,
+            "is_excessive": false,
+            "is_greater_on_right": false,
+            "is_greater_on_left": false,
+            "is_selected": true,
+            "right_eye_notes": null,
+            "left_eye_notes": null,
+            "face_shape_primary": null,
+            "face_shape_secondary": null,
+            "face_shape_tertiary": null,
+            "age": null,
+            "created": "2022-02-15T10:06:05.935344Z",
+            "modified": "2022-02-15T10:06:05.935344Z"
+        }
+    ]
+}

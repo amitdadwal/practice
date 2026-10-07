@@ -1,0 +1,2 @@
+project=wtf
+app=webapp

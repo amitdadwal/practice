@@ -1,0 +1,216 @@
+{
+    "count": 23,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1,
+            "name": "Face Shapes",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 0,
+            "type": "shape"
+        },
+        {
+            "id": 2,
+            "name": "Left & Right Sides",
+            "icon": {
+                "full_size": "https://whytheface-api-staging.s3.amazonaws.com/media/feature_icons/5751cb05-501f-4b1f-9abf-52fcb791b992.png"
+            },
+            "physiological_note": "bla",
+            "psychological_note": "bla",
+            "order": 1,
+            "type": "sides"
+        },
+        {
+            "id": 3,
+            "name": "Ears",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 2,
+            "type": "simple"
+        },
+        {
+            "id": 4,
+            "name": "Hairline",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 3,
+            "type": "simple"
+        },
+        {
+            "id": 5,
+            "name": "Forehead",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 4,
+            "type": "simple"
+        },
+        {
+            "id": 6,
+            "name": "Temples",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 5,
+            "type": "simple"
+        },
+        {
+            "id": 7,
+            "name": "Brow Bone",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 6,
+            "type": "simple"
+        },
+        {
+            "id": 8,
+            "name": "Between Eyebrows",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 7,
+            "type": "simple"
+        },
+        {
+            "id": 9,
+            "name": "Eyebrows",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 8,
+            "type": "simple"
+        },
+        {
+            "id": 10,
+            "name": "Eyes",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 9,
+            "type": "simple"
+        },
+        {
+            "id": 11,
+            "name": "Inner Canthus",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 10,
+            "type": "simple"
+        },
+        {
+            "id": 12,
+            "name": "Upper Eyelid",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 11,
+            "type": "simple"
+        },
+        {
+            "id": 13,
+            "name": "Under Eye",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 12,
+            "type": "simple"
+        },
+        {
+            "id": 14,
+            "name": "Cheekbones",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 13,
+            "type": "simple"
+        },
+        {
+            "id": 15,
+            "name": "Cheeks",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 14,
+            "type": "simple"
+        },
+        {
+            "id": 16,
+            "name": "Nose",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 15,
+            "type": "simple"
+        },
+        {
+            "id": 17,
+            "name": "Nose Tip",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 16,
+            "type": "simple"
+        },
+        {
+            "id": 19,
+            "name": "Fa-Ling Lines",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 18,
+            "type": "simple"
+        },
+        {
+            "id": 20,
+            "name": "Philtrum",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 19,
+            "type": "simple"
+        },
+        {
+            "id": 21,
+            "name": "Mouth",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 20,
+            "type": "simple"
+        },
+        {
+            "id": 22,
+            "name": "Lips",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 21,
+            "type": "simple"
+        },
+        {
+            "id": 23,
+            "name": "Chin",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 22,
+            "type": "simple"
+        },
+        {
+            "id": 24,
+            "name": "Jaw",
+            "icon": null,
+            "physiological_note": null,
+            "psychological_note": null,
+            "order": 23,
+            "type": "simple"
+        }
+    ]
+}

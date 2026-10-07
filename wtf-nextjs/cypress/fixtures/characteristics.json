@@ -1,0 +1,63 @@
+{
+    "count": 7,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 18,
+            "feature": 4,
+            "name": "Wide",
+            "note": null,
+            "icon": null,
+            "order": 0
+        },
+        {
+            "id": 19,
+            "feature": 4,
+            "name": "Narrow",
+            "note": null,
+            "icon": null,
+            "order": 1
+        },
+        {
+            "id": 20,
+            "feature": 4,
+            "name": "Uneven",
+            "note": null,
+            "icon": null,
+            "order": 2
+        },
+        {
+            "id": 21,
+            "feature": 4,
+            "name": "Square",
+            "note": null,
+            "icon": null,
+            "order": 3
+        },
+        {
+            "id": 22,
+            "feature": 4,
+            "name": "M-shaped",
+            "note": null,
+            "icon": null,
+            "order": 4
+        },
+        {
+            "id": 23,
+            "feature": 4,
+            "name": "Widow's peak",
+            "note": null,
+            "icon": null,
+            "order": 5
+        },
+        {
+            "id": 24,
+            "feature": 4,
+            "name": "Receding",
+            "note": null,
+            "icon": null,
+            "order": 6
+        }
+    ]
+}

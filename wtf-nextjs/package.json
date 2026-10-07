@@ -1,0 +1,62 @@
+{
+  "name": "baseapp-nextjs-mui-template",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run",
+    "e2e": "start-server-and-test dev http://localhost:3000 cypress",
+    "e2e:headless": "start-server-and-test dev http://localhost:3000 cypress:headless",
+    "test": "yarn e2e:headless"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.38"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.4.0",
+    "@mui/styles": "^5.3.0",
+    "@stripe/react-stripe-js": "^1.10.0",
+    "@stripe/stripe-js": "^1.36.0",
+    "baseapp-nextjs-core": "git+https://alisson:CQ5M7thUNtvqSeKcNW62@bitbucket.org/silverlogic/baseapp-nextjs-core.git#ac729cc6223d8dce40de51d423ee552b254b8d09",
+    "date-fns": "^2.28.0",
+    "libphonenumber-js": "^1.9.47",
+    "moment": "^2.29.4",
+    "next": "^12.3.1",
+    "next-transpile-modules": "^9.0.0",
+    "notistack": "^2.0.3",
+    "react": "17.0.2",
+    "react-div-100vh": "^0.7.0",
+    "react-dom": "17.0.2",
+    "react-quill": "^1.3.5",
+    "yup": "^0.32.11",
+    "yup-phone": "^1.3.2"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.7.2",
+    "@emotion/eslint-plugin": "^11.7.0",
+    "@types/humps": "^2.0.1",
+    "@types/js-cookie": "^3.0.1",
+    "@types/node": "^17.0.12",
+    "@types/qs": "^6.9.7",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "cypress": "8.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "dotenv": "^15.0.0",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1",
+    "start-server-and-test": "^1.14.0",
+    "typescript": "4.5.4"
+  }
+}

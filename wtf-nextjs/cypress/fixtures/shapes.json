@@ -1,0 +1,88 @@
+{
+    "count": 9,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1,
+            "name": "Bucket",
+            "icon": {
+                "full_size": "https://whytheface-api-staging.s3.amazonaws.com/media/shapes/990b5b58-7b13-42dd-a29b-4d5c89d12274.png"
+            },
+            "is_active": true,
+            "order": 0
+        },
+        {
+            "id": 2,
+            "name": "Earth",
+            "icon": {
+                "full_size": "https://whytheface-api-staging.s3.amazonaws.com/media/shapes/1efda36b-4999-42e0-ba13-3241df274355.png"
+            },
+            "is_active": true,
+            "order": 1
+        },
+        {
+            "id": 3,
+            "name": "Fire",
+            "icon": {
+                "full_size": "https://whytheface-api-staging.s3.amazonaws.com/media/shapes/82489443-800b-4d6e-af7d-978ccc6afdfe.png"
+            },
+            "is_active": true,
+            "order": 2
+        },
+        {
+            "id": 4,
+            "name": "Iron",
+            "icon": {
+                "full_size": "https://whytheface-api-staging.s3.amazonaws.com/media/shapes/f940c828-e7b3-493a-a400-cf290dedc3a0.png"
+            },
+            "is_active": true,
+            "order": 3
+        },
+        {
+            "id": 5,
+            "name": "Jade",
+            "icon": {
+                "full_size": "https://whytheface-api-staging.s3.amazonaws.com/media/shapes/593635b7-da8a-4700-9a39-7b131b8886d7.png"
+            },
+            "is_active": true,
+            "order": 4
+        },
+        {
+            "id": 6,
+            "name": "King",
+            "icon": {
+                "full_size": "https://whytheface-api-staging.s3.amazonaws.com/media/shapes/3bb2e71c-b241-4a8b-83f5-790e4ae5608b.png"
+            },
+            "is_active": true,
+            "order": 5
+        },
+        {
+            "id": 7,
+            "name": "Moon",
+            "icon": {
+                "full_size": "https://whytheface-api-staging.s3.amazonaws.com/media/shapes/64a194a4-a0f2-4bce-add3-7d3ff6be2dc3.png"
+            },
+            "is_active": true,
+            "order": 6
+        },
+        {
+            "id": 8,
+            "name": "Wide",
+            "icon": {
+                "full_size": "https://whytheface-api-staging.s3.amazonaws.com/media/shapes/ee6e9f5f-1a12-4615-bbff-ff5c9d1aa8c6.png"
+            },
+            "is_active": true,
+            "order": 7
+        },
+        {
+            "id": 9,
+            "name": "Wall",
+            "icon": {
+                "full_size": "https://whytheface-api-staging.s3.amazonaws.com/media/shapes/96ea15e7-e74b-413e-96de-8e92049ce033.png"
+            },
+            "is_active": true,
+            "order": 8
+        }
+    ]
+}

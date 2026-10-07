@@ -1,0 +1,7 @@
+Rest APi 
+GET /users HTML document
+GET /api/users list of all users 
+GET /api/users/:id get particular user using id 
+POST /api/users create a user
+PATCH /api/users/:id update a user using id
+DELETE /api/users/:id delete a user using id
